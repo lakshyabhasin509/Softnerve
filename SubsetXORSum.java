@@ -10,7 +10,7 @@ public class SubsetXORSum {
         return subsetXOR(0,arr,0);
     }
 
-//    recursive approach to calculate XOR sum of all subsets and adding them while backtracking
+//    recursive approach to calculate XOR sum of each subset and adding them while backtracking
     public int subsetXOR(int res,int[] arr,int index){
         if(index== arr.length)return res;
 
